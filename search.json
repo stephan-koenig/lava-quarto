@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "lava-quarto.html#section",
-    "href": "lava-quarto.html#section",
+    "objectID": "lava-quarto.html#advantages",
+    "href": "lava-quarto.html#advantages",
     "title": "Introduction to reproducible documents with Quarto",
-    "section": "",
-    "text": "Makes content and structure of a document explicit\nEnables flexible output to many formats"
+    "section": "Advantages",
+    "text": "Advantages\n\nMakes content and structure of a document explicit\nEnables flexible output to many formats\nFacilitates collaboration and reproducible workflows"
   },
   {
     "objectID": "lava-quarto.html#source-and-output-in-a-single-file",
@@ -32,18 +32,11 @@
     "href": "lava-quarto.html#markup",
     "title": "Introduction to reproducible documents with Quarto",
     "section": "Markup",
-    "text": "Markup\n\nMarkup is specifically used to label parts of the document for what they are, rather than how they should be processed.\n— Wikipedia\n\n\nMarkup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wiki/Markup_language"
+    "text": "Markup\n\nMarkup is specifically used to label parts of the document for what they are, rather than how they should be processed.\n— Wikipedia\n\n\nMarkup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wiki/Markup_language\n\n##{#markdown .centered data-menu-title=“Markdown” background-iframe=“https://daringfireball.net/projects/markdown/” background-interactive=“true”}\n\nhttps://daringfireball.net/projects/markdown/"
   },
   {
-    "objectID": "lava-quarto.html#markdown",
-    "href": "lava-quarto.html#markdown",
-    "title": "Introduction to reproducible documents with Quarto",
-    "section": "",
-    "text": "https://daringfireball.net/projects/markdown/"
-  },
-  {
-    "objectID": "lava-quarto.html#markdow-quote",
-    "href": "lava-quarto.html#markdow-quote",
+    "objectID": "lava-quarto.html#markdown-quote",
+    "href": "lava-quarto.html#markdown-quote",
     "title": "Introduction to reproducible documents with Quarto",
     "section": "",
     "text": "The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. […] To this end, Markdown’s syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a word actually look like *emphasis*.\n— John Gruber\n\n\n\nhttps://daringfireball.net/projects/markdown/"
@@ -63,18 +56,18 @@
     "text": "Quarto\n\nIs an open-source command line interface tool for scientific and technical publishing\nProvides a comprehensive set of feature out of the box\nUses as source plain text formats (.qmd, .rmd, .md) or mixed formats (.ipynb/Jupyter notebook)\nCreates outputs including PDF, Word, HTML reports, books, websites, presentations & more\nPrevents fragmentation by interleaving of descriptive text, code and its outputs"
   },
   {
-    "objectID": "lava-quarto.html#overview-of-how-quarto-works",
-    "href": "lava-quarto.html#overview-of-how-quarto-works",
+    "objectID": "lava-quarto.html#quarto-tools",
+    "href": "lava-quarto.html#quarto-tools",
     "title": "Introduction to reproducible documents with Quarto",
-    "section": "Overview of how Quarto works",
-    "text": "Overview of how Quarto works\n\n“Artwork from”Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.”"
+    "section": "",
+    "text": "https://quarto.org/docs/get-started/"
   },
   {
-    "objectID": "lava-quarto.html#detailed-view-of-how-quarto-works",
-    "href": "lava-quarto.html#detailed-view-of-how-quarto-works",
+    "objectID": "lava-quarto.html#how-quarto-works",
+    "href": "lava-quarto.html#how-quarto-works",
     "title": "Introduction to reproducible documents with Quarto",
-    "section": "Detailed view of how Quarto works",
-    "text": "Detailed view of how Quarto works\n\n“Artwork from”Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.”"
+    "section": "How Quarto works",
+    "text": "How Quarto works\n\n“Artwork from”Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.”"
   },
   {
     "objectID": "lava-quarto.html#pandoc-is-a-rosetta-stone",
