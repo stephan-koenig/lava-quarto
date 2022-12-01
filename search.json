@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "lava-quarto.html#section",
+    "href": "lava-quarto.html#section",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "",
+    "text": "Makes content and structure of a document explicit\nEnables flexible output to many formats"
+  },
+  {
+    "objectID": "lava-quarto.html#source-and-output-in-a-single-file",
+    "href": "lava-quarto.html#source-and-output-in-a-single-file",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Source and Output in a single file",
+    "text": "Source and Output in a single file"
+  },
+  {
+    "objectID": "lava-quarto.html#source-and-output-in-a-single-file-1",
+    "href": "lava-quarto.html#source-and-output-in-a-single-file-1",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Source and Output in a single file",
+    "text": "Source and Output in a single file"
+  },
+  {
+    "objectID": "lava-quarto.html#source-and-output-are-separate-files",
+    "href": "lava-quarto.html#source-and-output-are-separate-files",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Source and Output are separate files",
+    "text": "Source and Output are separate files\n\n\nSource\n\n\nOutput"
+  },
+  {
+    "objectID": "lava-quarto.html#markup",
+    "href": "lava-quarto.html#markup",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Markup",
+    "text": "Markup\n\nMarkup is specifically used to label parts of the document for what they are, rather than how they should be processed.\n— Wikipedia\n\n\nMarkup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wiki/Markup_language"
+  },
+  {
+    "objectID": "lava-quarto.html#markdown",
+    "href": "lava-quarto.html#markdown",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "",
+    "text": "https://daringfireball.net/projects/markdown/"
+  },
+  {
+    "objectID": "lava-quarto.html#markdow-quote",
+    "href": "lava-quarto.html#markdow-quote",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "",
+    "text": "The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. […] To this end, Markdown’s syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a word actually look like *emphasis*.\n— John Gruber\n\n\n\nhttps://daringfireball.net/projects/markdown/"
+  },
+  {
+    "objectID": "lava-quarto.html#markdown-tutorial",
+    "href": "lava-quarto.html#markdown-tutorial",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "",
+    "text": "https://commonmark.org/help/tutorial/"
+  },
+  {
+    "objectID": "lava-quarto.html#quarto",
+    "href": "lava-quarto.html#quarto",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Quarto",
+    "text": "Quarto\n\nIs an open-source command line interface tool for scientific and technical publishing\nProvides a comprehensive set of feature out of the box\nUses as source plain text formats (.qmd, .rmd, .md) or mixed formats (.ipynb/Jupyter notebook)\nCreates outputs including PDF, Word, HTML reports, books, websites, presentations & more\nPrevents fragmentation by interleaving of descriptive text, code and its outputs"
+  },
+  {
+    "objectID": "lava-quarto.html#overview-of-how-quarto-works",
+    "href": "lava-quarto.html#overview-of-how-quarto-works",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Overview of how Quarto works",
+    "text": "Overview of how Quarto works\n\n“Artwork from”Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.”"
+  },
+  {
+    "objectID": "lava-quarto.html#detailed-view-of-how-quarto-works",
+    "href": "lava-quarto.html#detailed-view-of-how-quarto-works",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Detailed view of how Quarto works",
+    "text": "Detailed view of how Quarto works\n\n“Artwork from”Hello, Quarto” keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst.”"
+  },
+  {
+    "objectID": "lava-quarto.html#pandoc-is-a-rosetta-stone",
+    "href": "lava-quarto.html#pandoc-is-a-rosetta-stone",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Pandoc is a Rosetta Stone",
+    "text": "Pandoc is a Rosetta Stone\n\nPublic domain via Wikimedia Commons"
+  },
+  {
+    "objectID": "lava-quarto.html#basic-structure-of-quarto-document",
+    "href": "lava-quarto.html#basic-structure-of-quarto-document",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Basic structure of Quarto document",
+    "text": "Basic structure of Quarto document\n---\ntitle: \"Untitled\"\nformat: html\n---\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into\na finished document. To learn more about Quarto see <https://quarto.org>.\n\n```{r}\n1 + 1\n```\n\nMetadata as YAML\nText\nCode"
+  },
+  {
+    "objectID": "lava-quarto.html#resources",
+    "href": "lava-quarto.html#resources",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "Resources",
+    "text": "Resources\n\nDaring Fireball: Markdown\nInteractive Commonmark Markdown tutorial\nQuarto documentation\nGet started with Quarto Workshop with introductory video and material"
+  }
+]
