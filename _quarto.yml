@@ -1,0 +1,12 @@
+project:
+  title: "Introduction to reproducible documents with Quarto"
+  type: website
+  output-dir: docs
+
+website:
+  site-url: "https://stephan-koenig.github.io/lava-quarto/"
+
+execute:
+  freeze: auto
+
+editor: visual
