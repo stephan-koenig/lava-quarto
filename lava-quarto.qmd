@@ -11,10 +11,11 @@ author:
 format: revealjs
 ---
 
-## 
+## Advantages
 
-- Makes content and structure of a document explicit
-- Enables flexible output to many formats
+-   Makes content and structure of a document explicit
+-   Enables flexible output to many formats
+-   Facilitates collaboration and reproducible workflows
 
 ## Source and Output in a single file {background-image="images/source_is_output_1.png" background-size="70%" aria-label="Open Word document with text reading \"The source and output are the same.\""}
 
@@ -46,17 +47,17 @@ Output
 Markup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wiki/Markup_language
 :::
 
-## {#markdown .centered data-menu-title="Markdown" background-iframe="https://daringfireball.net/projects/markdown/" background-interactive="true"}
+##  {#markdown .centered data-menu-title="Markdown" background-iframe="https://daringfireball.net/projects/markdown/" background-interactive="true"}
 
 ::: footer
 <https://daringfireball.net/projects/markdown/>
 :::
 
-## {#markdow-quote .centered data-menu-title="Markdown quote" background-iframe="https://daringfireball.net/projects/markdown/" auto-animate="true" background-opacity="0.1"}
+##  {#markdown-quote .centered data-menu-title="Markdown quote" background-iframe="https://daringfireball.net/projects/markdown/" auto-animate="true" background-opacity="0.1"}
 
 ::: {style="margin-top: 150px"}
-> The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. [...] To this end, Markdown’s syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a word actually look like \*emphasis\*.
-> 
+> The overriding design goal for Markdown's formatting syntax is to make it as readable as possible. \[...\] To this end, Markdown's syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a word actually look like \*emphasis\*.
+>
 > [--- John Gruber]{style="float:right"}
 :::
 
@@ -64,30 +65,36 @@ Markup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wik
 <https://daringfireball.net/projects/markdown/>
 :::
 
-## {#markdown-tutorial data-menu-title="Markdow tutorial" background-iframe="https://commonmark.org/help/tutorial/" background-interactive="true"}
+##  {#markdown-tutorial data-menu-title="Markdow tutorial" background-iframe="https://commonmark.org/help/tutorial/" background-interactive="true"}
 
 ::: footer
 <https://commonmark.org/help/tutorial/>
 :::
 
+# {{< fa laptop-code >}} Your Turn: Markdown {background-color="#447099"}
+
+-   Open <https://commonmark.org/help/tutorial/>
+-   Explore Markdown syntax
+-   Check out the Code formatting section
+
 ## Quarto
 
-- Is an open-source command line interface tool for scientific and technical publishing
-- Provides a comprehensive set of feature out of the box
-- Uses as source plain text formats (`.qmd`, `.rmd`, `.md`) or mixed formats (`.ipynb`/Jupyter notebook)
-- Creates outputs including PDF, Word, HTML reports, books, websites, presentations & more
-- Prevents fragmentation by interleaving of descriptive text, code and its outputs
+-   Is an open-source command line interface tool for scientific and technical publishing
+-   Provides a comprehensive set of feature out of the box
+-   Uses as source plain text formats (`.qmd`, `.rmd`, `.md`) or mixed formats (`.ipynb`/Jupyter notebook)
+-   Creates outputs including PDF, Word, HTML reports, books, websites, presentations & more
+-   Prevents fragmentation by interleaving of descriptive text, code and its outputs
 
-## Overview of how Quarto works {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/c2ef45f1-4a68-4c7a-a43f-bdcf0f90e104_rw_3840.png?h=783eba914284e5adfb9feadcf4ba5f1e" background-size="contain" aria-label="A schematic representing the multi-language input (e.g. Python, R, Observable, Julia) and multi-format output (e.g. PDF, html, Word documents, and more) versatility of Quarto."}
+##  {#quarto-tools .centered data-menu-title="Quarto tools" background-iframe="https://quarto.org/docs/get-started/"}
 
 ::: footer
-"Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+<https://quarto.org/docs/get-started/>
 :::
 
-## Detailed view of how Quarto works {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/b5217f2a-f129-4bf9-90dc-c5b9783d0ea8_rw_3840.png?h=a41d29d8ce363dbc153f3bcc1abe085a" background-size="contain" aria-label="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document."}
+## How Quarto works {background-image="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/b5217f2a-f129-4bf9-90dc-c5b9783d0ea8_rw_3840.png?h=a41d29d8ce363dbc153f3bcc1abe085a" background-size="contain" aria-label="A schematic representing rendering of Quarto documents from .qmd, to knitr or jupyter, to plain text markdown, then converted by pandoc into any number of output types including html, PDF, or Word document."}
 
 ::: footer
-"Artwork from "Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
+"Artwork from"Hello, Quarto" keynote by Julia Lowndes and Mine Çetinkaya-Rundel, presented at RStudio Conference 2022. Illustrated by Allison Horst."
 :::
 
 ## Pandoc is a Rosetta Stone {background-image="https://upload.wikimedia.org/wikipedia/commons/c/ca/Rosetta_Stone_BW.jpeg" background-size="35%"}
@@ -96,9 +103,15 @@ Markup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wik
 Public domain via Wikimedia Commons
 :::
 
+# {{< fa laptop-code >}} Your Turn: Posit Cloud {background-color="#447099"}
+
+-   Create free Posit Cloud account <https://posit.cloud/plans/free>
+-   Open <https://posit.cloud/content/4332583>
+-   OR: Open your local install of RStudio
+
 ## Basic structure of Quarto document
 
-````{.markdown code-line-numbers="|1-4|6-9|11-13"}
+```` {.markdown code-line-numbers="|1-4|6-9|11-13"}
 ---
 title: "Untitled"
 format: html
@@ -114,14 +127,22 @@ a finished document. To learn more about Quarto see <https://quarto.org>.
 ```
 ````
 
-- Metadata as YAML
-- Text
-- Code
+-   Metadata as YAML
+-   Text
+-   Code
+
+# {{< fa laptop-code >}} Your Turn {background-color="#447099"}
+
+-   Use as reference: <https://quarto.org/docs/reference/formats/html.html>
+-   Edit title and add your name as the author
+-   Change theme to `sketchy`
+-   Add TOC
+-   Create two sections, one with something you learned and your favourite thing
+-   Render it with Posit Cloud button
 
 ## Resources
 
-- [Daring Fireball: Markdown](https://daringfireball.net/projects/markdown/)
-- [Interactive Commonmark Markdown tutorial](https://commonmark.org/help/tutorial/)
-- [Quarto documentation](https://quarto.org/)
-- [Get started with Quarto Workshop](https://rstudio-conf-2022.github.io/get-started-quarto/)
-with [introductory video](https://www.youtube.com/watch?v=yvi5uXQMvu4) and [material](https://github.com/jthomasmock/quarto-workshop)
+-   [Daring Fireball: Markdown](https://daringfireball.net/projects/markdown/)
+-   [Interactive Commonmark Markdown tutorial](https://commonmark.org/help/tutorial/)
+-   [Quarto documentation](https://quarto.org/)
+-   [Get started with Quarto Workshop](https://rstudio-conf-2022.github.io/get-started-quarto/) with [introductory video](https://www.youtube.com/watch?v=yvi5uXQMvu4) and [material](https://github.com/jthomasmock/quarto-workshop)
