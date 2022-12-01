@@ -32,7 +32,14 @@
     "href": "lava-quarto.html#markup",
     "title": "Introduction to reproducible documents with Quarto",
     "section": "Markup",
-    "text": "Markup\n\nMarkup is specifically used to label parts of the document for what they are, rather than how they should be processed.\n— Wikipedia\n\n\nMarkup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wiki/Markup_language\n\n##{#markdown .centered data-menu-title=“Markdown” background-iframe=“https://daringfireball.net/projects/markdown/” background-interactive=“true”}\n\nhttps://daringfireball.net/projects/markdown/"
+    "text": "Markup\n\nMarkup is specifically used to label parts of the document for what they are, rather than how they should be processed.\n— Wikipedia\n\n\nMarkup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wiki/Markup_language"
+  },
+  {
+    "objectID": "lava-quarto.html#markdown",
+    "href": "lava-quarto.html#markdown",
+    "title": "Introduction to reproducible documents with Quarto",
+    "section": "",
+    "text": "https://daringfireball.net/projects/markdown/"
   },
   {
     "objectID": "lava-quarto.html#markdown-quote",
