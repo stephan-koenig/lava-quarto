@@ -1,1 +1,1 @@
-Sitemap: https://stephan-koenig.github.io/quarto-lava/sitemap.xml
+Sitemap: https://stephan-koenig.github.io/lava-quarto/sitemap.xml
