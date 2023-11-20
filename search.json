@@ -88,7 +88,7 @@
     "href": "index.html#basic-structure-of-quarto-document",
     "title": "Introduction to reproducible documents with Quarto",
     "section": "Basic structure of Quarto document",
-    "text": "Basic structure of Quarto document\n---\ntitle: \"Untitled\"\nformat: html\n---\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into\na finished document. To learn more about Quarto see <https://quarto.org>.\n\n```{r}\n1 + 1\n```\n\nMetadata as YAML\nText\nCode"
+    "text": "Basic structure of Quarto document\n---\ntitle: \"Untitled\"\nformat: html\n---\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into\na finished document. To learn more about Quarto see &lt;https://quarto.org&gt;.\n\n```{r}\n1 + 1\n```\n\nMetadata as YAML\nText\nCode"
   },
   {
     "objectID": "index.html#resources",
