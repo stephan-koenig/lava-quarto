@@ -8,7 +8,9 @@ author:
     affiliations:
       - name: Skylight, University of British Columbia
         department: Computer Science
-format: revealjs
+format:
+  revealjs:
+    chalkboard: true
 ---
 
 ## Advantages
@@ -44,7 +46,10 @@ Output
 > [--- Wikipedia]{style="float:right"}
 
 ::: footer
-Markup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wiki/Markup_language
+Markup language.
+(2022, November 16).
+In Wikipedia.
+https://en.wikipedia.org/wiki/Markup_language
 :::
 
 ##  {#markdown .centered data-menu-title="Markdown" background-iframe="https://daringfireball.net/projects/markdown/" background-interactive="true"}
@@ -56,7 +61,9 @@ Markup language. (2022, November 16). In Wikipedia. https://en.wikipedia.org/wik
 ##  {#markdown-quote .centered data-menu-title="Markdown quote" background-iframe="https://daringfireball.net/projects/markdown/" auto-animate="true" background-opacity="0.1"}
 
 ::: {style="margin-top: 150px"}
-> The overriding design goal for Markdown's formatting syntax is to make it as readable as possible. \[...\] To this end, Markdown's syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean. E.g., asterisks around a word actually look like \*emphasis\*.
+> The overriding design goal for Markdown's formatting syntax is to make it as readable as possible.
+> \[...\] To this end, Markdown's syntax is comprised entirely of punctuation characters, which punctuation characters have been carefully chosen so as to look like what they mean.
+> E.g., asterisks around a word actually look like \*emphasis\*.
 >
 > [--- John Gruber]{style="float:right"}
 :::
