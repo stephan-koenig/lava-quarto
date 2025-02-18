@@ -26,7 +26,7 @@ format:
 
 ## Source and Output are separate files
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 Source
 
@@ -38,7 +38,7 @@ Output
 
 {{< fa file-image title="An output file" size=8x >}}
 :::
-:::
+:::::
 
 ## Markup
 
