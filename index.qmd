@@ -11,6 +11,7 @@ author:
 format:
   revealjs:
     chalkboard: true
+    controls: true
 ---
 
 ## Advantages
